@@ -1,5 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { useNavigate } from 'react-router-dom';
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -17,12 +19,12 @@ const Home = () => {
           I'm frontend developer Especially interested in the Front end/Web Development, HTML, CSS, JS, React. Excited to learn new things and improve, lifetime student. 
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <Link to="work" className='text-white group border-2 w-40 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
