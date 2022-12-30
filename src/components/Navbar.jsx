@@ -55,6 +55,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="hover:bg-sky-700 rounded-md hover:font-bold">
+          <Link to="certificate" smooth={true} duration={500}>
+            Certificates
+          </Link>
+        </li>
+        <li className="hover:bg-sky-700 rounded-md hover:font-bold">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
@@ -94,6 +99,15 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li
+          className="py-6 text-4xl hover:bg-sky-700 
+rounded-md hover:font-bold"
+        >
+          {" "}
+          <Link onClick={handleClick} to="certificate" smooth={true} duration={500}>
+            Certificates
           </Link>
         </li>
         <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
