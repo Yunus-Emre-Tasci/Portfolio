@@ -27,22 +27,22 @@ const Certificate = () => {
 
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-28
+            <img className="w-24
              mx-auto" src={htmlcss} alt="HTML icon" />
             <p className="my-4 text-lg font-bold">HTML-CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-28
+            <img className="w-24
              mx-auto" src={javascript} alt="HTML icon" />
             <p className="my-4 text-lg font-bold">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-28
+            <img className="w-24
              mx-auto" src={react} alt="HTML icon" />
             <p className="my-4 text-lg font-bold">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-28
+            <img className="w-24
              mx-auto" src={frontend} alt="HTML icon" />
             <p className="my-4 text-lg font-bold">FRONTEND</p>
           </div>
