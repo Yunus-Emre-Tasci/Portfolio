@@ -84,18 +84,18 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
+        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold duration-500">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
+        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold duration-500">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
+        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold duration-500">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
@@ -103,20 +103,20 @@ const Navbar = () => {
         </li>
         <li
           className="py-6 text-4xl hover:bg-sky-700 
-rounded-md hover:font-bold"
+rounded-md hover:font-bold duration-500"
         >
           {" "}
           <Link onClick={handleClick} to="certificate" smooth={true} duration={500}>
             Certificates
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
+        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold duration-500">
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold">
+        <li className="py-6 text-4xl hover:bg-sky-700 rounded-md hover:font-bold duration-500">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
