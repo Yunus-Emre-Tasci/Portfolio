@@ -27,7 +27,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Movie App
               </span>
@@ -50,7 +50,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Firebase-Contact
               </span>
@@ -74,7 +74,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Recipe App
               </span>
@@ -97,7 +97,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Random User
               </span>
@@ -121,7 +121,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Task Tracker
               </span>
@@ -144,7 +144,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 duration-700">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Employee List
               </span>
