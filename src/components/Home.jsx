@@ -23,6 +23,8 @@ const Home = () => {
         <div>
           <Link
             to="work"
+            smooth={true}
+            duration={500}
             className="text-white group border-2 w-40 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"
           >
             View Work
